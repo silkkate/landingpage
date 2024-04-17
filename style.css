@@ -145,3 +145,26 @@ button {
     font-size: 14px;
     color:#1F2937;
 }
+
+.quote-background {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-credit {
+    color:#1F2937;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
