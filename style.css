@@ -8,6 +8,18 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+button {
+    flex-grow: 0;
+    width: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 4px 0 4px 0;
+}
+
 .container-1 {
     background-color: #1F2937;
     display: flex;
@@ -29,6 +41,28 @@ body {
 .header-links {
     display: flex;
     gap: 20px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-header {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text {
     color: #E5E7EB;
     font-size: 18px;
 }
