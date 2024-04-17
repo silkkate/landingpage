@@ -150,9 +150,9 @@ button {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 300px;
     justify-content: center;
-    padding: 100px;
+    padding: 200px 240px;
 }
 
 .quote {
@@ -167,5 +167,5 @@ button {
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
-    padding: 18px 50px;
+    padding: 10px 20px;
 }
