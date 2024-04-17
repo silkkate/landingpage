@@ -18,7 +18,7 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     justify-content: center;
     border: none;
     text-decoration: none;
@@ -112,7 +112,7 @@ button {
     flex-direction: column;
     padding: 40px 120px 80px 120px;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
 }
 
 .image-boxes {
