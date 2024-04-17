@@ -110,8 +110,9 @@ button {
     background-color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    padding: 20px 120px 80px 120px;
+    padding: 40px 120px 80px 120px;
     justify-content: center;
+    gap: 50px;
 }
 
 .image-boxes {
@@ -125,6 +126,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 8px;
 }
 
 .box {
@@ -141,4 +143,5 @@ button {
     width: 140px;
     text-align: center;
     font-size: 14px;
+    color:#1F2937;
 }
