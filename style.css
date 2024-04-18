@@ -189,7 +189,7 @@ button {
     align-items: center;
 }
 
-.cta-header, .cta-text {
+.cta-header, .cta-text, .footer-text {
     color: #F9FAF8;
 }
 
@@ -206,4 +206,16 @@ button {
     border-style: solid;
     border-color: #F9FAF8;
     border-width: 2px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 12px;
 }
