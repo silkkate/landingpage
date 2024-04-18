@@ -155,8 +155,8 @@ button {
 
 .quote {
     font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
+    font-style:italic;
+    font-weight:100;
     color: #1F2937;
 }
 
