@@ -58,7 +58,7 @@ button {
 
 .container-3 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 30px;
 }
@@ -69,7 +69,6 @@ button {
     justify-content: center;
     margin: 0;
     padding: 0;
-    width: 390px;
 }
 
 .hero-header {
@@ -150,9 +149,8 @@ button {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    height: auto;
     justify-content: center;
-    padding: 60px 300px;
+    padding: 60px 140px;
 }
 
 .quote {
