@@ -60,16 +60,16 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
 }
 
 .hero-text-container {
     display: flex;
-    flex: 1;
     flex-direction: column;
     justify-content: center;
     margin: 0;
     padding: 0;
+    width: 390px;
 }
 
 .hero-header {
@@ -82,15 +82,16 @@ button {
 .hero-text {
     display: flex;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .placeholder-image {
     display: flex;
+    flex-shrink: 0;
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-width: 500px;
+    width: 450px;
     height: 220px;
     background-color: rgb(118, 125, 133);
     color:#F9FAF8;
@@ -149,9 +150,9 @@ button {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: auto;
     justify-content: center;
-    padding: 200px 240px;
+    padding: 60px 300px;
 }
 
 .quote {
